@@ -6,4 +6,10 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    if len(s) >= n + 1:
+        jav = s[n]
+
+    else:
+        jav = False
+
+    return jav
