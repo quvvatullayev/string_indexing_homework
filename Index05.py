@@ -9,6 +9,34 @@ def main(s):
     Returns:
         int: answer
     """
-    return len(s)
+    answer = 0
+    if s[0].isdigit():
+        answer += 1
+    else:
+        0
+    if s[1].isdigit():
+        answer += 1
+
+    else:
+        0
+    if s[2].isdigit():
+        answer += 1
+
+    else:
+        0
+
+    if s[3].isdigit():
+        answer += 1
+
+    else: 
+        0
+
+    if s[4].isdigit():
+        answer += 1
+
+    else:
+        0
+
+    return answer
 
 print(main("ogabe"))
