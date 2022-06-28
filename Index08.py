@@ -19,4 +19,4 @@ def main(s):
     return jav
 
 
-print(main("Ogabe*"))
+print(main("Og*abe"))
