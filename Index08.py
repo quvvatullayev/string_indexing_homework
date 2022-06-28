@@ -9,12 +9,14 @@ def main(s):
     Returns:
         int: answer
     """
+
     s = str(s)
     if int(s.index("*")) >= 0:
-        return s.index("*")
+        jav = s.index("*")
 
     else:
-        return False
+        jav = False
+    return jav
 
 
 print(main("Ogabe*"))
