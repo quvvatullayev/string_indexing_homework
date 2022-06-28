@@ -9,13 +9,13 @@ def main(s):
     Returns:
         int: answer
     """
-
     s = str(s)
-    if int(s.index("*")) >= 0:
+    if s.count("*") != 0:
         jav = s.index("*")
 
     else:
         jav = False
+        
     return jav
 
 
