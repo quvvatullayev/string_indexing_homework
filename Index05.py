@@ -1,3 +1,6 @@
+from multiprocessing import managers
+
+
 def main(s):
     """
     Given a variable s string of length five. Determine the number of digits involved in this variable.
@@ -6,4 +9,6 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    return len(s)
+
+print(main("ogabe"))
